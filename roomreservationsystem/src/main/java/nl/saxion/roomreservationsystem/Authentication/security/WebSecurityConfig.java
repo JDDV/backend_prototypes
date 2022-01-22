@@ -1,7 +1,7 @@
-package nl.saxion.roomreservationsystem.Authentication;
+package nl.saxion.roomreservationsystem.Authentication.security;
 
-import nl.saxion.roomreservationsystem.Authentication.security.AuthEntryPointJwt;
-import nl.saxion.roomreservationsystem.Authentication.security.AuthTokenFilter;
+import nl.saxion.roomreservationsystem.Authentication.security.jwt.AuthEntryPointJwt;
+import nl.saxion.roomreservationsystem.Authentication.security.jwt.AuthTokenFilter;
 import nl.saxion.roomreservationsystem.Authentication.security.services.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -58,6 +58,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
                 .authorizeRequests().antMatchers("/api/auth/**").permitAll()
                 .antMatchers("/api/test/**").permitAll()
+                .antMatchers("/api/room").permitAll()
                 .anyRequest().authenticated();
 
         http.addFilterBefore(authenticationJwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);

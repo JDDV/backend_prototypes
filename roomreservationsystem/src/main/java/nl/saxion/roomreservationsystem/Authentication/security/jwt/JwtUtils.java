@@ -1,4 +1,4 @@
-package nl.saxion.roomreservationsystem.Authentication.security;
+package nl.saxion.roomreservationsystem.Authentication.security.jwt;
 
 import java.util.Date;
 

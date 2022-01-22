@@ -1,4 +1,6 @@
-package nl.saxion.roomreservationsystem.Authentication;
+package nl.saxion.roomreservationsystem.Authentication.user;
+
+import nl.saxion.roomreservationsystem.Authentication.Role;
 
 import java.util.HashSet;
 import java.util.Set;

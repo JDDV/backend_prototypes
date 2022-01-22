@@ -1,4 +1,4 @@
-package nl.saxion.roomreservationsystem.Authentication.payload;
+package nl.saxion.roomreservationsystem.Authentication.payload.response;
 import java.util.List;
 
 public class JwtResponse {

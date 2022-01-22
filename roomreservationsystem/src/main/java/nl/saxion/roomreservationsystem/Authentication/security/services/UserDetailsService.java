@@ -1,4 +1,4 @@
-package nl.saxion.roomreservationsystem.Authentication;
+package nl.saxion.roomreservationsystem.Authentication.security.services;
 
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

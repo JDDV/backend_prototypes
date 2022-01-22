@@ -1,4 +1,4 @@
-package nl.saxion.roomreservationsystem.Authentication;
+package nl.saxion.roomreservationsystem.Authentication.role;
 
 public enum ERole {
     ROLE_USER,

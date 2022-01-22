@@ -2,13 +2,12 @@ package nl.saxion.roomreservationsystem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-public class RoomreservationsystemApplication {
+public class RoomReservationSystemApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RoomreservationsystemApplication.class, args);
+		SpringApplication.run(RoomReservationSystemApplication.class, args);
 	}
 
 }

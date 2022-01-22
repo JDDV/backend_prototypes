@@ -1,10 +1,11 @@
-package nl.saxion.roomreservationsystem.Authentication;
+package nl.saxion.roomreservationsystem.Authentication.security.services;
 
 import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
+import nl.saxion.roomreservationsystem.Authentication.user.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

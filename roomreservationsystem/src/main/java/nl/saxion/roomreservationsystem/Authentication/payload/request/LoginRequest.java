@@ -1,4 +1,4 @@
-package nl.saxion.roomreservationsystem.Authentication.payload;
+package nl.saxion.roomreservationsystem.Authentication.payload.request;
 
 import javax.validation.constraints.NotBlank;
 
