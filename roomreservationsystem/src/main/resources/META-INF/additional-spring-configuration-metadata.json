@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "roomreservationsystem.jwtSecret",
+      "type": "java.lang.String",
+      "description": "Description for roomreservationsystem.jwtSecret."
+    },
+    {
+      "name": "bezkoder.app.jwtExpirationMs",
+      "type": "java.lang.String",
+      "description": "Description for bezkoder.app.jwtExpirationMs."
+    }
+  ] }
